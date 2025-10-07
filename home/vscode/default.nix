@@ -21,6 +21,7 @@
         jnoortheen.nix-ide
         svelte.svelte-vscode
         bradlc.vscode-tailwindcss
+        wakatime.wakatime
       ];
     };
   };
