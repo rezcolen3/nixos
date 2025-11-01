@@ -14,7 +14,7 @@
       exec-once = [
         "waybar"
         "dunst"
-        "hyprpaper"
+        "swww init && swww img /etc/nixos/home/swww/use.png"
       ];
 
       general = {
@@ -34,6 +34,10 @@
         shadow = {
           enabled = false;
         };
+      };
+
+      misc = {
+        disable_hyprland_logo = true;
       };
     };
   };

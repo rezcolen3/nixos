@@ -17,6 +17,8 @@
 
         # Nix-specific formatter
         "[nix]".editor.defaultFormatter = "jnoortheen.nix-ide";
+
+        "editor.quickSuggestions.strings" = "on";
       };
 
       extensions = with pkgs.vscode-extensions; [

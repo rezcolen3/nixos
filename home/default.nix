@@ -11,7 +11,7 @@
     ./waybar # Status bar
     ./dunst # Notifications
     ./fonts # Fonts
-    ./hyprpaper # Wallpaper manager
+    ./swww # Wallpaper manager
 
     # Apps
     ./kitty # Terminal
