@@ -1,5 +1,6 @@
-{ config, pkgs, ... }:
-
+{ pkgs, ... }:
 {
-  home.packages = [ pkgs.swww ];
+  home.packages = with pkgs; [
+    swww
+  ];
 }

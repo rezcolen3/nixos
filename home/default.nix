@@ -18,7 +18,7 @@
     ./neovim # Code Editor
     ./firefox # Browser
     ./vscode # Visual Code Editor
-    ./prismlauncher
+    ./prismlauncher # Minecraft launcher
 
     # Tools
     ./node # JS stuff
