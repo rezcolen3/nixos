@@ -1,4 +1,4 @@
-{ config, ... }:
+{ ... }:
 {
   home.username = "rez";
   home.homeDirectory = "/home/rez";
@@ -12,6 +12,9 @@
     ./dunst # Notifications
     ./fonts # Fonts
     ./swww # Wallpaper manager
+    ./hyprpicker # Color picker
+    ./bibata # Cursor theme
+    ./hyprlock
 
     # Apps
     ./kitty # Terminal
@@ -30,6 +33,6 @@
     ./btop # System monitor
     ./fastfetch # System info tool // Flex tool
     ./zsh # Shell
-    ./clippy # custom file for screenshots & clipboard management
+    ./clippy # screenshots & clipboard management
   ];
 }

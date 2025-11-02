@@ -19,6 +19,8 @@
         "[nix]".editor.defaultFormatter = "jnoortheen.nix-ide";
 
         "editor.quickSuggestions.strings" = "on";
+
+        "workbench.colorTheme" = "Catppuccin Latte";
       };
 
       extensions = with pkgs.vscode-extensions; [

@@ -10,6 +10,8 @@
 
     # screenshot
     "$mod, s, exec, grim -g \"$(slurp -w 0)\" - | wl-copy"
+    "$mod, p, exec, hyprpicker -a"
+    "$mod, l, exec, hyprlock"
 
     # windows
     "$mod, code:10, workspace, 1"

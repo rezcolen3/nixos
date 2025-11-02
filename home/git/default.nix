@@ -1,6 +1,8 @@
 { ... }:
 {
-  home.packages = with pkgs; [
-    git
-  ];
+  programs.git = {
+    enable = true;
+    userName = "rez";
+    userEmail = "rhythmupa@gmail.com";
+  };
 }
