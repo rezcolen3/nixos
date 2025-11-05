@@ -3,7 +3,7 @@
   programs.waybar.style = ''
     * {
       font-family: "SpaceMono Nerd Font";
-      color: white;
+      color: #04a5e5;
     }
 
     window {
@@ -15,8 +15,8 @@
     #custom-nixos-btw, #user,
     window.top_bar .modules-center,
     window.top_bar .modules-right {
-      background-color: rgba(0, 0, 0, 0.5);
-      border: 1px solid rgba(0, 0, 255, 1);
+      background-color: rgba(239, 241, 245, 0.8);
+      border: 1px solid rgba(4, 165, 229, 1);
       border-radius: 5px;
     }
 
