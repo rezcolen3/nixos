@@ -14,7 +14,7 @@
     ./swww # Wallpaper manager
     ./hyprpicker # Color picker
     ./bibata # Cursor theme
-    ./hyprlock
+    ./hyprlock # Screen locker
 
     # Apps
     ./kitty # Terminal
@@ -22,6 +22,7 @@
     ./firefox # Browser
     ./vscode # Visual Code Editor
     ./prismlauncher # Minecraft launcher
+    ./tor
 
     # Tools
     ./node # JS stuff
@@ -33,6 +34,7 @@
     ./btop # System monitor
     ./fastfetch # System info tool // Flex tool
     ./zsh # Shell
+    ./starship # Shell Prompt
     ./clippy # screenshots & clipboard management
   ];
 }

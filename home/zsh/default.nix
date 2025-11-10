@@ -2,7 +2,6 @@
 {
   home.packages = with pkgs; [
     thefuck
-    starship
   ];
 
   programs.zsh = {
@@ -30,8 +29,6 @@
 
     initContent = ''
       fastfetch
-      
-      eval "$(starship init zsh)"
     '';
 
   };
