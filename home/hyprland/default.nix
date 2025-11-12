@@ -13,7 +13,7 @@
       exec-once = [
         "waybar"
         "dunst"
-        "swww init && swww img /etc/nixos/home/swww/use.png"
+        "swww-daemon && swww img /etc/nixos/home/swww/use.png"
       ];
 
       general = {

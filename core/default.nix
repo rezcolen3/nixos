@@ -8,6 +8,7 @@
     ./seatd.nix
     ./hardware.nix
     ./nixpkgs.nix
+    ./audio.nix
     ./user.nix
   ];
 }

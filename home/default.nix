@@ -30,7 +30,6 @@
     ./nixfmt # Nix formatter
 
     # Misc
-    ./pulseaudio # Audio stuff
     ./btop # System monitor
     ./fastfetch # System info tool // Flex tool
     ./zsh # Shell

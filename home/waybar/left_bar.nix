@@ -13,6 +13,7 @@
       "modules-right" = [
         "cpu"
         "memory"
+        "battery"
         "pulseaudio"
       ];
 
@@ -62,7 +63,15 @@
         "tooltip" = false;
         "rotate" = 90;
       };
+      "battery" = {
+        "format" = "{icon} {capacity}%";
+        "format-charging" = " {capacity}%";
+        "format-full" = "  {capacity}%";
+        "format-icons" = [ "" "" "" "" "" ];
+        "interval" = 30;
+        "rotate" = 90;
+        "tooltip" = false;
+      };
     }
   ];
-
 }

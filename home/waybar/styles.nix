@@ -39,8 +39,8 @@
       padding: 0 12px;
     }
 
-    #memory {
-      margin: 15px 0;
+    #memory, #battery {
+      margin: 10px 0;
     }
 
     #cpu, #pulseaudio {

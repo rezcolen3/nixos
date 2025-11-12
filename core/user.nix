@@ -19,6 +19,7 @@ in
       "video"
       "input"
       "tty"
+      "audio"
     ];
     packages = with pkgs; [ ];
     shell = pkgs.zsh;
@@ -32,8 +33,4 @@ in
   home-manager.useGlobalPkgs = true;
   home-manager.backupFileExtension = "backup";
   home-manager.users.rez = import ../home;
-
-  services.flatpak.enable = true;
-  xdg.portal.enable = true;
-  xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-hyprland ];
 }
