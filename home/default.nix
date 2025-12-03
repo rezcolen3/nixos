@@ -28,6 +28,7 @@
     ./node # JS stuff
     ./git # Version control
     ./nixfmt # Nix formatter
+    ./java # Java runtime
 
     # Misc
     ./btop # System monitor
@@ -35,5 +36,6 @@
     ./zsh # Shell
     ./starship # Shell Prompt
     ./clippy # screenshots & clipboard management
+    ./bluetui # Bluetooth TUI
   ];
 }

@@ -9,6 +9,7 @@
     ./hardware.nix
     ./nixpkgs.nix
     ./audio.nix
+    ./bluetooth.nix
     ./user.nix
   ];
 }
